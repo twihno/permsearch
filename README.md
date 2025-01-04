@@ -13,7 +13,7 @@ Allowlist based search
 ## Usage
 
 ```text
-Simple search for finding mistakes in owner and permission settings
+Simple search for finding mistakes in filesystem owner and permission settings
 
 Usage: permsearch [OPTIONS] <BASE_DIR>
 

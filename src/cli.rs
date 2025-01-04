@@ -8,7 +8,7 @@ use crate::input_parser::FilterSet;
 #[command(
     version,
     about,
-    long_about = "Simple search for finding mistakes in owner and permission settings"
+    long_about = "Simple search for finding mistakes in filesystem owner and permission settings"
 )]
 pub struct Args {
     /// List of allowed directory types
