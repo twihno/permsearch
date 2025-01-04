@@ -7,6 +7,7 @@ repository = "https://github.com/twihno/permsearch"
 authors = ["Thomas Schuster <twihno@gmail.com>"]
 readme = "README.md"
 keywords = ["cli", "linux", "permissions", "tool"]
+categories = ["command-line-utilities"]
 documentation = "https://docs.rs/permsearch"
 description = "Simple search for finding mistakes in filesystem owner and permission settings "
 
