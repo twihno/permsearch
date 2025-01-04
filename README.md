@@ -1,4 +1,4 @@
-# Permsearch
+# permsearch
 
 A very simple audit tool for finding files and folders in a directory (and its subdirectories) which don't have the expected owners and/or permissions.
 

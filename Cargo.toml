@@ -2,6 +2,13 @@
 name = "permsearch"
 version = "1.0.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/twihno/permsearch"
+authors = ["Thomas Schuster <twihno@gmail.com>"]
+readme = "README.md"
+keywords = ["cli", "linux", "permissions", "tool"]
+documentation = "https://docs.rs/permsearch"
+description = "Simple search for finding mistakes in filesystem owner and permission settings "
 
 [lints.rust]
 unsafe_code = { level = "forbid", priority = 0 }
