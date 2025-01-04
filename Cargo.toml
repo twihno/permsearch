@@ -1,0 +1,26 @@
+[package]
+name = "permsearch"
+version = "1.0.0"
+edition = "2021"
+
+[lints.rust]
+unsafe_code = { level = "forbid", priority = 0 }
+
+[lints.clippy]
+pedantic = "warn"
+
+[profile.release]
+lto = "fat"
+
+[dependencies]
+anyhow = "1.0.95"
+clap = { version = "4.5.23", features = [
+  "derive",
+  "suggestions",
+  "std",
+  "help",
+  "error-context",
+  "color",
+  "usage",
+] }
+regex = "1.11.1"
