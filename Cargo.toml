@@ -9,7 +9,9 @@ readme = "README.md"
 keywords = ["cli", "linux", "permissions", "tool"]
 categories = ["command-line-utilities"]
 documentation = "https://docs.rs/permsearch"
-description = "Simple search for finding mistakes in filesystem owner and permission settings "
+description = "Simple search for finding mistakes in filesystem owner and permission settings"
+exclude = [".github/*"]
+
 
 [lints.rust]
 unsafe_code = { level = "forbid", priority = 0 }
