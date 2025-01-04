@@ -10,7 +10,7 @@ keywords = ["cli", "linux", "permissions", "tool"]
 categories = ["command-line-utilities"]
 documentation = "https://docs.rs/permsearch"
 description = "Simple search for finding mistakes in filesystem owner and permission settings"
-exclude = [".github/*"]
+exclude = [".github/*", ".editorconfig"]
 
 
 [lints.rust]
