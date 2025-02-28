@@ -1,7 +1,7 @@
 [package]
 name = "permsearch"
 version = "1.0.1"
-edition = "2021"
+edition = "2024"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/twihno/permsearch"
 authors = ["Thomas Schuster <twihno@gmail.com>"]
