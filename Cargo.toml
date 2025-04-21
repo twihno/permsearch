@@ -24,7 +24,7 @@ lto = "fat"
 
 [dependencies]
 anyhow = "1.0.98"
-clap = { version = "4.5.36", features = [
+clap = { version = "4.5.37", features = [
   "derive",
   "suggestions",
   "std",
