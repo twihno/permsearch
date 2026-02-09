@@ -33,4 +33,4 @@ clap = { version = "4.5.56", features = [
   "color",
   "usage",
 ] }
-regex = "1.12.2"
+regex = "1.12.3"
